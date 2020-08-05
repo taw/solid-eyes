@@ -1,0 +1,22 @@
+{
+  "name": "solid-eyes",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "solid-js": "^0.18.14",
+    "solid-scripts": "0.0.36"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "solid-scripts start",
+    "build": "solid-scripts build",
+    "test": "solid-scripts test"
+  },
+  "browserslist": [
+    "Chrome 74",
+    "Firefox 63",
+    "Safari 11",
+    "Edge 17",
+    "Node 10"
+  ]
+}
