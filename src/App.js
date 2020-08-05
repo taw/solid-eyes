@@ -39,10 +39,6 @@ export default function App() {
     my: Math.random() * wh,
    });
 
-  // createEffect(() => {
-  //   console.log("mouse:", state.mx, state.my);
-  // });
-
   let eyes = [];
 
   [...Array.from({ length: 1000 })].forEach((_) => {
@@ -59,7 +55,6 @@ export default function App() {
   return (
     () =>
     <div class="App">
-      <h1>{state.mx} {state.my}</h1>
       <svg id="eyes" onMouseMove={move}>
         {
           <For each={eyes}>
